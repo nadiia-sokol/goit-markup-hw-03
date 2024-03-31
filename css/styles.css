@@ -125,6 +125,7 @@ img {
     background-color: #2e2f42;
     text-align: center;
     height: 600px;
+    
 }
 .hero-title {
     font-weight: 700;
@@ -257,7 +258,7 @@ img {
 
 }
 .portfolio-item{
-    flex-basis: calc((100% - 72px)/3);
+    width: calc((100% - 48px)/3);
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -292,6 +293,7 @@ img {
 .container-footer{
     padding: 100px 0;
     max-width: 264px;
+    display: inline-block;
 }
 .footer-logo-color {
     font-family: "Raleway", sans-serif;
@@ -310,7 +312,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
-    display: inline-block;
+    
 }
 
 .footer-text {
