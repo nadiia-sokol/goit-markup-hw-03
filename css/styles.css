@@ -48,6 +48,7 @@ img {
     padding-bottom:24px;
     padding-left: 156px;
     padding-right: 156px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -123,9 +124,7 @@ img {
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    width: 1440px;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    height: 600px;
 }
 .hero-title {
     font-weight: 700;
@@ -136,9 +135,9 @@ img {
     color: #fff;
     margin: 0 auto;
     max-width: 496px;
+    padding-top: 188px;
     padding-bottom: 48px;
-
-}
+    }
 .hero-btn {
     background: #4d5ae5;
     font-family: "Roboto", sans-serif;
@@ -148,6 +147,7 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    padding: 16px 32px;
     
 }
 .hero-btn:hover,
@@ -245,18 +245,18 @@ img {
     margin-bottom: 72px;
 }
 .portfolio-list{
-display: flex;
-flex-wrap: wrap;
-/*gap: 48px 24px;*/
-column-gap: 24px;
-row-gap: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 48px 24px;*/
+    column-gap: 24px;
+    row-gap: 48px;
 
 }
 .portfolio-item{
-width: calc((100% - 72px)/3);
-border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
+    width: calc((100% - 72px)/3);
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 
 }
 .portfolio-title {
