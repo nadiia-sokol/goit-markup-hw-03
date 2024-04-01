@@ -326,10 +326,7 @@ img {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.container-footer{
-    max-width: 264px;
-    display: inline-block;
-}
+
 .footer-logo-color {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -338,7 +335,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    
     
 }
 .footer-logo{
@@ -350,7 +346,6 @@ img {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    
 }
 
 .footer-text {
